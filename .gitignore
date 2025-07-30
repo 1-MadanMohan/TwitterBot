@@ -1,0 +1,22 @@
+# Node modules (very large and unnecessary to commit)
+node_modules/
+
+# Environment variables (contains secrets like API keys, tokens, etc.)
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Optional: OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: IDE-specific files
+.vscode/
+.idea/
+
+# Optional: dependency lock (if you're using yarn or pnpm instead of npm)
+yarn.lock
+pnpm-lock.yaml
